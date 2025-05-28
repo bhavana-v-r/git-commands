@@ -1,0 +1,9 @@
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[user]
+	name = bhavana-v-r
+	email = 114577424+bhavana-v-r@users.noreply.github.com
+	e-mail = vrbhavana2002@gmail.com
